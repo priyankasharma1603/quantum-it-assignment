@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+     </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Jillion Technologies</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6" >
+                    <h1 class="hero-title">WE MAKE YOUR IDEAS <span class="text-highlight">INTO REALITY</span></h1>
+                    <p class="hero-text">We provide innovative solutions that bring your vision to life with efficiency and creativity.</p>
+                    <button class="btn btn-primary me-2" style="background-color: rgb(64, 32, 179);">Get Started</button>
+                    <button class="btn btn-outline-primary" style="border: 1px solid rgb(54, 9, 116);color: rgb(57, 26, 83);">Contact Us</button>
+                </div>
+                <div class="col-md-6 text-center" style="padding-left: 100px;">
+                    <img src="images/1.png" alt="Hero Image" class="img-fluid hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section py-5">
+        
+        <div class="container">
+            <h2 class="text-center mb-5">Features</h2>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 text-center">
+                    <img src="images/2.png" alt="Feature Image 1" class="img-fluid feature-image">
+                </div>
+                <div class="col-md-6">
+                    <h3>Innovative Solutions</h3>
+                    <p>We provide cutting-edge technology solutions tailored to your business needs.</p>
+                </div>
+            </div>
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 order-md-2 text-center">
+                    <img src="images/3.png" alt="Feature Image 2" class="img-fluid feature-image">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h3>Expert Team</h3>
+                    <p>Our experienced professionals are dedicated to delivering excellence in every project.</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="images/4.png" alt="Feature Image 3" class="img-fluid feature-image">
+                </div>
+                <div class="col-md-6">
+                    <h3>Comprehensive Support</h3>
+                    <p>We provide 24/7 customer support to ensure smooth operation and satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-5">Products</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-animate">
+                        <img src="images/o" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Our flagship product offers unparalleled performance and reliability.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-animate">
+                        <img src="images/o" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">A versatile solution designed for diverse business applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-animate">
+                        <img src="images/o" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Our innovative product meets the highest industry standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Testimonials</h2>
+            <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/icon.png" class="rounded-circle mb-3 img-fluid" alt="Testimonial 1">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">"Amazing service! Jillion Technologies transformed our business with their innovative solutions."</p>
+                        </blockquote>
+                        <div class="blockquote-footer">Paula Wilson <cite title="Source Title">, Media Analyst</cite></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/icon.png" class="rounded-circle mb-3 img-fluid" alt="Testimonial 2">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">"Highly recommend! Their expert team delivered exceptional results on time and within budget."</p>
+                        </blockquote>
+                        <div class="blockquote-footer">John Doe <cite title="Source Title">, Product Manager</cite></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/icon.png" class="rounded-circle mb-3 img-fluid" alt="Testimonial 3">
+                        <blockquote class="blockquote">
+                            <p class="mb-0">"Their support is unmatched, always there when we need them."</p>
+                        </blockquote>
+                        <div class="blockquote-footer">Jane Smith <cite title="Source Title">, Developer</cite></div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section container">
+      <h2>Contact Us</h2>
+      <div class="row align-items-center">
+          <!-- Image Column -->
+          <div class="col-md-6">
+              <img src="images/5.png" alt="Contact Illustration" class="img-fluid">
+          </div>
+          <!-- Form Column -->
+          <div class="col-md-6">
+             
+              <form>
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Example textarea</label>
+                      <textarea class="form-control" id="message" rows="3"></textarea>
+                  </div>
+                  <button type="submit" id="btn1" class="btn btn-primary">Submit</button>
+              </form>
+          </div>
+      </div>
+  </section>
+  
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <h5>CONTACT US</h5>
+                  <p>Email: contact@JILLIONTECHNOLOGIES.com</p>
+                  <p>Phone: 123456789</p>
+                  <p>Address: C-260, Sector-63, Noida, UP-201301</p>
+              </div>
+              <div class="col-md-3">
+                  <h5>COMPANY</h5>
+                  <p>About Us</p>
+                  <p>Services</p>
+                  <p>Portfolio</p>
+                  <p>Development Process</p>
+                  <p>Career</p>
+              </div>
+              <div class="col-md-3">
+                  <h5>SERVICE</h5>
+                  <p>Website Development</p>
+                  <p>Mobile App Development</p>
+                  <p>E-commerce Development</p>
+                  <p>Customer Software Development</p>
+              </div>
+              <div class="col-md-3">
+                  <h5>SUPPORT</h5>
+                  <p>Contact</p>
+                  <p>Term & Policy</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

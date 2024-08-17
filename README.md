@@ -1,5 +1,8 @@
-Landing Page Project
+Landing Page Project 
+
+
 Overview
+
 This project is a simple, responsive landing page designed to showcase a product, service, or brand. The landing page is built using modern web technologies and includes sections like hero, features, testimonials, and a call to action. The goal is to create an engaging and visually appealing experience for visitors.
 live:https://quantum-it-assignment-eosin.vercel.app/
 
